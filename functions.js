@@ -12,7 +12,6 @@
 
 
 
-
 // function displayName() {
 //     name = "Christine";
 
@@ -33,9 +32,16 @@
 // }
 // console.log(sum(4, 8)); 
 
-function displayProduct() {
+function displayProduct(a, b) {
     var a  = 30;
     var b = 12;
     return product = a * b;
 }
 console.log(displayProduct());
+function prism(height, width) {
+
+    height = 90;
+    width = 50;
+    return volume = height * width;
+}
+console.log(prism(3, 4));
